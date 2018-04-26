@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="110" tests="5" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="5" failures="0" errors="0" time="110" timestamp="2561-04-24 10:36:20" hostname="Lenovo - 10.80.40.253" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Lab11_AutomateTest\\Reports\\Test Suite 1\\25610424_103619"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Lab11_AutomateTest\\Reports\\Test Suite 1\\25610424_103619\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - 10.80.40.253"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="hostAddress" value="10.80.40.253"/>
+         <property name="sessionId" value="25001c1b97381aa73b91f8e7c1459824"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2561-04-24 10:36:21 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2561-04-24 10:36:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-24 10:36:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-24 10:36:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:36:41 - [MESSAGE][PASSED] - Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:36:41 - [TEST_STEP][PASSED] - setText: Text '55' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:36:42 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:36:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:36:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:36:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-24 10:36:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 2" classname="Test Cases/Test Case 2" status="PASSED">
+         <system-out><![CDATA[2561-04-24 10:36:44 - [TEST_CASE][PASSED] - Test Cases/Test Case 2: Test Cases/Test Case 2
+
+2561-04-24 10:36:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-24 10:36:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-24 10:36:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:37:00 - [MESSAGE][PASSED] - Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:37:00 - [TEST_STEP][PASSED] - setText: Text '30' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:37:00 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:37:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:37:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:37:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-24 10:37:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 3" classname="Test Cases/Test Case 3" status="PASSED">
+         <system-out><![CDATA[2561-04-24 10:37:03 - [TEST_CASE][PASSED] - Test Cases/Test Case 3: Test Cases/Test Case 3
+
+2561-04-24 10:37:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-24 10:37:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-24 10:37:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:37:25 - [MESSAGE][PASSED] - Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:37:25 - [TEST_STEP][PASSED] - setText: Text '60' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:37:26 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:37:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:37:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:37:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:37:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-24 10:37:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 4" classname="Test Cases/Test Case 4" status="PASSED">
+         <system-out><![CDATA[2561-04-24 10:37:28 - [TEST_CASE][PASSED] - Test Cases/Test Case 4: Test Cases/Test Case 4
+
+2561-04-24 10:37:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-24 10:37:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-24 10:37:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:37:45 - [MESSAGE][PASSED] - Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:37:45 - [TEST_STEP][PASSED] - setText: Text '75' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:37:45 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:37:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:37:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:37:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-24 10:37:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 5" classname="Test Cases/Test Case 5" status="PASSED">
+         <system-out><![CDATA[2561-04-24 10:37:48 - [TEST_CASE][PASSED] - Test Cases/Test Case 5: Test Cases/Test Case 5
+
+2561-04-24 10:37:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-24 10:37:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-24 10:37:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:38:08 - [MESSAGE][PASSED] - Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:38:08 - [TEST_STEP][PASSED] - setText: Text '89' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:38:09 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:38:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:38:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:38:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:38:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-24 10:38:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-04-24 10:36:20 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/Test Case 5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

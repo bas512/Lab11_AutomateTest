@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="7" tests="1" failures="4" errors="0">
+   <testsuite name="Test Suite 1" tests="1" failures="4" errors="0" time="7" timestamp="2561-04-24 10:20:17" hostname="Lenovo - 10.80.40.253" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Lab11_AutomateTest\\Reports\\Test Suite 1\\25610424_102013"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Lab11_AutomateTest\\Reports\\Test Suite 1\\25610424_102013\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - 10.80.40.253"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="hostAddress" value="10.80.40.253"/>
+         <property name="sessionId" value="8deb0586266b529136a15cb5fb952f58"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2561-04-24 10:20:18 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2561-04-24 10:20:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-24 10:20:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-24 10:20:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:20:21 - [MESSAGE][PASSED] - Navigate to 'http://34.212.30.86:8081/' successfully
+
+2561-04-24 10:20:21 - [TEST_STEP][PASSED] - setText: Text '55' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:20:21 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/Page_Lab 234/input_score'
+
+2561-04-24 10:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lab 234/button_Submit' is clicked on
+
+2561-04-24 10:20:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:20:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Lab 234/answer' are matched.
+
+2561-04-24 10:20:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-24 10:20:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 2" classname="Test Cases/Test Case 2" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)"/>
+         <system-out><![CDATA[2561-04-24 10:20:23 - [TEST_CASE][FAILED] - Test Cases/Test Case 2: Test Cases/Test Case 2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:23 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-out>
+         <system-err><![CDATA[2561-04-24 10:20:23 - [TEST_CASE][FAILED] - Test Cases/Test Case 2: Test Cases/Test Case 2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 3" classname="Test Cases/Test Case 3" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)"/>
+         <system-out><![CDATA[2561-04-24 10:20:24 - [TEST_CASE][FAILED] - Test Cases/Test Case 3: Test Cases/Test Case 3 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-out>
+         <system-err><![CDATA[2561-04-24 10:20:24 - [TEST_CASE][FAILED] - Test Cases/Test Case 3: Test Cases/Test Case 3 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 4" classname="Test Cases/Test Case 4" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)"/>
+         <system-out><![CDATA[2561-04-24 10:20:24 - [TEST_CASE][FAILED] - Test Cases/Test Case 4: Test Cases/Test Case 4 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-out>
+         <system-err><![CDATA[2561-04-24 10:20:24 - [TEST_CASE][FAILED] - Test Cases/Test Case 4: Test Cases/Test Case 4 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case 5" classname="Test Cases/Test Case 5" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)"/>
+         <system-out><![CDATA[2561-04-24 10:20:24 - [TEST_CASE][FAILED] - Test Cases/Test Case 5: Test Cases/Test Case 5 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)
+
+2561-04-24 10:20:24 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-out>
+         <system-err><![CDATA[2561-04-24 10:20:24 - [TEST_CASE][FAILED] - Test Cases/Test Case 5: Test Cases/Test Case 5 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-04-24 10:20:17 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Test Case 2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-out>
+      <system-err><![CDATA[2561-04-24 10:20:17 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Test Case 2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-FUCP830P', ip: '10.80.40.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.ExistingRemoteWebDriver
+Capabilities {javascriptEnabled: true, platform: ANY, platformName: ANY}
+Session ID: 8deb0586266b529136a15cb5fb952f58)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 1,,,2561-04-24 10:23:43,2561-04-24 10:23:45,1.799s,FAILED
+,,,,,,
+Test Cases/Test Case 1,,,2561-04-24 10:23:44,2561-04-24 10:23:44,0.596s,FAILED
+openBrowser,,,2561-04-24 10:23:44,2561-04-24 10:23:44,0.337s,FAILED
+,,,,,,
+Test Cases/Test Case 2,,,2561-04-24 10:23:44,2561-04-24 10:23:44,0.180s,FAILED
+openBrowser,,,2561-04-24 10:23:44,2561-04-24 10:23:44,0.010s,FAILED
+,,,,,,
+Test Cases/Test Case 3,,,2561-04-24 10:23:44,2561-04-24 10:23:45,0.186s,FAILED
+openBrowser,,,2561-04-24 10:23:45,2561-04-24 10:23:45,0.009s,FAILED
+,,,,,,
+Test Cases/Test Case 4,,,2561-04-24 10:23:45,2561-04-24 10:23:45,0.174s,FAILED
+openBrowser,,,2561-04-24 10:23:45,2561-04-24 10:23:45,0.010s,FAILED
+,,,,,,
+Test Cases/Test Case 5,,,2561-04-24 10:23:45,2561-04-24 10:23:45,0.152s,FAILED
+openBrowser,,,2561-04-24 10:23:45,2561-04-24 10:23:45,0.008s,FAILED
